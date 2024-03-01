@@ -20,6 +20,6 @@ def functestinggithubactions(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "Charles Leclerc",
+             "Charles Leclerc would win Bahrain GP!",
              status_code=200
         )
